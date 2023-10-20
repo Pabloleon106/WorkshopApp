@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.List;
 
 public class Repair {
-    private int NEXT_ID = 1;
+    private int NEXT_ID = 0;
     private int id;
     private Date date;
     private String description;
@@ -22,5 +22,52 @@ public class Repair {
         this.description = description;
         this.effort = effort;
         items = new ArrayList<>();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+
+    public Date getDate() {
+        return date;
+    }
+
+
+    public String getDescription() {
+        return description;
+    }
+
+
+    public int getEffort() {
+        return effort;
+    }
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public BreakdownTypes getBreakdownType() {
+        return breakdownType;
+    }
+
+    public void setBreakdownType(BreakdownTypes breakdownType) {
+        this.breakdownType = breakdownType;
+    }
+
+    public Vehicle getVehicle() {
+        return vehicle;
+    }
+
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+    }
+
+    public Payment getPayment() {
+        return payment;
+    }
+
+    public void setPayment(Payment payment) {
+        this.payment = payment;
     }
 }

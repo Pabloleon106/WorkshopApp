@@ -8,4 +8,20 @@ public class Customer {
         this.name = name;
         this.phone = phone;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Phone getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String number) {
+        this.phone = new Phone(number);
+    }
 }
