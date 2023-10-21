@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03e28ff8-4e81-4895-b56c-7d3ab5232352" name="Changes" comment="Métodos creados">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="03e28ff8-4e81-4895-b56c-7d3ab5232352" name="Changes" comment="Versión final">
       <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/control/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Phone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697908213459</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Algunos arreglos producidos y código de prueba creado">
+      <option name="closed" value="true" />
+      <created>1697912036333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697912036333</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Versión final">
+      <option name="closed" value="true" />
+      <created>1697912514285</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697912514285</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +108,9 @@
     <MESSAGE value="Clases creadas" />
     <MESSAGE value="Constructores creados" />
     <MESSAGE value="Métodos creados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Métodos creados" />
+    <MESSAGE value="Algunos arreglos producidos y código de prueba creado" />
+    <MESSAGE value="Versión final" />
+    <MESSAGE value="Revert &quot;Versión final&quot;&#10;&#10;This reverts commit b46c3b03752764210034eddd593e83e2e6ae7b4a." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Versión final&quot;&#10;&#10;This reverts commit b46c3b03752764210034eddd593e83e2e6ae7b4a." />
   </component>
 </project>

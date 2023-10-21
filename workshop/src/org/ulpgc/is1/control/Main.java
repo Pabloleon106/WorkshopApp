@@ -83,9 +83,9 @@ public class Main {
         System.out.println("Descripción: " + repair1.getDescription());
         System.out.println("Esfuerzo: " + repair1.getEffort());
         System.out.println("Tipo de avería: " + repair1.getBreakdownType());
-        System.out.println("Coste total:" + repair1.price() + "€");
+        System.out.println("Coste total: " + repair1.price() + "€");
         System.out.println("Día de pago: " + repair1.getPayment().getDate());
-        System.out.println("Cantidad del pago:" + repair1.getPayment().getAmount() + "€");
+        System.out.println("Cantidad del pago: " + repair1.getPayment().getAmount() + "€");
         System.out.println("Partes reemplazadas:");
         for (Item item : repair1.getItems()) {
             System.out.println(item.getSparePart().getName() + ": " + item.getQuantity());
