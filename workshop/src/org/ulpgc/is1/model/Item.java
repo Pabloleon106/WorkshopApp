@@ -8,5 +8,14 @@ public class Item {
         this.quantity = quantity;
         this.sparePart = sparePart;
     }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public SparePart getSparePart() {
+        return sparePart;
+    }
+
 }
 

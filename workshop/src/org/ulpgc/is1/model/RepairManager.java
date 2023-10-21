@@ -16,6 +16,16 @@ public class RepairManager {
         stockList = new ArrayList<>();
     }
 
+    public void addMechanic(Mechanic mechanic) {
+        if (!mechanicList.contains(mechanic)) {
+            mechanicList.add(mechanic);
+        }
+    }
+
+    public void addVehicle(Vehicle vehicle) {
+        vehicleList.add(vehicle);
+    }
+
     public Mechanic getMechanic(String name) {
         for (Mechanic mechanic : mechanicList) {
             if (mechanic.getName().equals(name)) {
@@ -34,13 +44,23 @@ public class RepairManager {
         return null;
     }
 
-    public List<Repair> getRepairsList() {
-        return repairsList;
+    public void repair(Vehicle vehicle, Repair repair) {
+        repairsList.add(repair);
+        vehicle.addRepair(repair);
     }
 
-    public List<SparePart> getStockList() {
-        return stockList;
+    public int countVehicles() {
+        return vehicleList.size();
     }
 
+    public void removeVehicle(String plate) {
+        Vehicle vehicleToRemove = getVehicle(plate);
+        if (vehicleToRemove != null) {
+            vehicleList.remove(vehicleToRemove);
+        }
+    }
 
+    public void addSparePart(SparePart sparePart) {
+        stockList.add(sparePart);
+    }
 }

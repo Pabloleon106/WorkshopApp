@@ -58,5 +58,11 @@ public class Vehicle {
     public void setRepairsList(List<Repair> repairsList) {
         this.repairsList = repairsList;
     }
+    public void addRepair(Repair repair) {
+        repairsList.add(repair);
+    }
+    public void removeRepair(Repair repair) {
+        repairsList.remove(repair);
+    }
 
 }
