@@ -27,7 +27,7 @@ public class Repair {
     public int price() {
         int total = 0;
         for (Item item : items) {
-            total = item.getQuantity() * item.getSparePart().getPrice();
+            total = total + item.getQuantity() * item.getSparePart().getPrice();
         }
         return total;
     }

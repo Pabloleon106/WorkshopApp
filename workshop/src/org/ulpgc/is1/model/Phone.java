@@ -14,12 +14,12 @@ public class Phone{
     public void setNumber(String number) {
         this.number = number;
     }
-    public boolean isValid(String number){
+    public String isValid(String number){
         if(number.length() == 9){
-            return true;
+            return number;
         } else {
             number = "XXXX";
-            return false;
+            return number;
         }
     }
 }

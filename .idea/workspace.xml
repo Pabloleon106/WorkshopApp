@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03e28ff8-4e81-4895-b56c-7d3ab5232352" name="Changes" comment="Constructores creados">
+    <list default="true" id="03e28ff8-4e81-4895-b56c-7d3ab5232352" name="Changes" comment="Métodos creados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Mechanic.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Mechanic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/control/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Plate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Repair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/RepairManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/RepairManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/src/org/ulpgc/is1/model/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2X2IIskLgkXRbIGhTAmtvbkvoV7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,14 +35,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/Users/darit/IdeaProjects/WorkshopApp/workshop/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/darit/IdeaProjects/WorkshopApp/workshop/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +68,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697821769621</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Métodos creados">
+      <option name="closed" value="true" />
+      <created>1697908213459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697908213459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,17 +93,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clases creadas" />
     <MESSAGE value="Constructores creados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructores creados" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/workshop/src/org/ulpgc/is1/control/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Métodos creados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Métodos creados" />
   </component>
 </project>
